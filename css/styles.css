@@ -16,7 +16,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #434455;
+    color: var(--slate-color);
     background: var(--white-color);
 }
 
@@ -85,18 +85,18 @@ body {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--white-color);
     text-align: center;
 }
 
 .hero-button {
-    background-color: #4D5AE5;
+    background-color: var(--iris-color);
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: var(--white-color);
     cursor: pointer;
 }
 
@@ -141,7 +141,7 @@ body {
 }
 
 .list-bg {
-    background-color: #FFFFFF;
+    background-color: var(--white-color);
 }
 
 /* Footer */
@@ -170,7 +170,7 @@ body {
 .filter-button {
     font-family: 'Roboto', sans-serif;
     background-color: var(--cloud-color);
-    border: 1px solid #E7E9FC;
+    border: 1px solid var(--cornflower-color);
     font-weight: 500;
     line-height: 1.5;
     font-size: 16px;
@@ -183,6 +183,6 @@ body {
 .filter-button:hover, 
 .filter-button:focus {
     background-color: var(--ocean-color);
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 
