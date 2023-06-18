@@ -146,6 +146,11 @@ ul {
 .section-benefits {
     padding: 120px 156px 0 156px;
 }
+title-hidden {
+    visibility: hidden;
+    pointer-events: none;
+    position: absolute;
+}
 .benefits-list { 
     gap: 24px;   
 }
@@ -158,7 +163,7 @@ ul {
     font-size: 20px;
     line-height: 1.2;
     color: var(--navy-blue-color);
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 /* Section 2 Benefits end */
 
