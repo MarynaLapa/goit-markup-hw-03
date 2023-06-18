@@ -23,6 +23,7 @@ body {
     font-weight: 400;
     width: 1440px;
     margin: 0 auto;
+    border: 1px solid var(--cornflower-color);
 }
 main {
     flex-grow: 1;
