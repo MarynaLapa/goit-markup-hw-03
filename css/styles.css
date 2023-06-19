@@ -78,6 +78,7 @@ ul {
     color: var(--iris-color);
     text-transform: uppercase;   
     margin-right: 76px; 
+    margin-bottom: 16px;
 }
 .color-header-logo {
     color: var(--navy-blue-color);
@@ -228,26 +229,29 @@ ul {
     background-color: var(--navy-blue-color);
     padding: 100px 0;
 }
-.footer-container {
+/* .footer-container {
     width: 264px;
-}
+} */
 .color-footer-logo {
     color: var(--cloud-color);
 }
 .footer-text {
     color: var(--cloud-color);
-    padding-top: 16px;
+    margin-top: 16px;
+    max-width: 264px
 }
 /* Footer end*/
 
 
 /* Portfolio - Main section Our project start */
-.list-item-button, .list-item-projects {
+/* .list-item-button, .list-item-projects {
     list-style-type: none;
+} */
+.section-portfolio {
+    padding: 96px 0 120px;
 }
 .button-list {
     justify-content: center;
-    margin-top: 96px;
     margin-bottom: 72px;
     gap: 24px;
 }
@@ -267,33 +271,35 @@ ul {
 .filter-button:focus {
     background-color: var(--ocean-color);
     color: var(--white-color);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border: 1px solid transparent;
+    /* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); */
 }
 .container-portfolio {
     width: 1128px;
-    margin-bottom: 120px;
 }
 .portfolio-list {
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 .portfolio-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid var(--cornflower-color);
+    /* display: block; */
+    /* align-items: center; */
     width: calc((100% - 48px) / 3);
-    border-top: 0px;
+    
 }
 .list-text {
     color: var(--slate-color);
+    /* padding: 0 16px; */
+}
+.portfolio-block {
+    padding: 32px 16px;
+    /* max-width: 360px; */
+    border: 1px solid var(--cornflower-color);
+    border-top: none;
+}
+/* .portfolio-title {
     padding: 0 16px;
-}
-.portfolio-conteiner {
-    margin: 32px 0;
-    width: 360px;
-}
-.portfolio-title {
-    padding: 0 16px;
-}
+} */
