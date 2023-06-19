@@ -52,16 +52,23 @@ ul {
 }
 .link {
     text-decoration: none;
+    display: inline-block;
 }
 
 
 /* Header start */
+.container-nav {
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0;
+}
 .header {
     align-items: center;
     border-bottom: 1px solid var(--cornflower-color);
 }
 .nav-row {
     align-items: center;
+
 }
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -71,14 +78,13 @@ ul {
     letter-spacing: 0.03em;
     color: var(--iris-color);
     text-transform: uppercase;   
-    margin: 76px; 
+    margin-right: 76px; 
 }
 .color-header-logo {
     color: var(--navy-blue-color);
 }
 .page-nav-list {
     gap: 40px;
-    margin: 24px 0;
 }
 .page-nav-link {
     font-weight: 500; 
@@ -108,20 +114,21 @@ ul {
 /* Hero section start */
 .section-hero {
     background-color: var(--grey-color);
-}
-.container-hero {
-    width: 496px;
-    text-align: center;
-    margin: 0 auto;
+    padding: 188px 0;
 }
 .hero-title {
     font-size: 56px;
     line-height: 1.07;
     color: var(--white-color);
-    padding-top: 188px;
-    padding-bottom: 48px; 
+    padding-bottom: 48px;
+    width: 496px; 
+    text-align: center;
+    margin: 0 auto;
 }
 .hero-button {
+    display: block;
+    margin: 0 auto;
+    border: none;
     background-color: var(--iris-color);
     font-weight: 500;
     line-height: 1.5;
@@ -132,7 +139,6 @@ ul {
     border-radius: 4px;
     width: 169px;
     height: 56px;
-    margin-bottom: 188px;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -143,19 +149,26 @@ ul {
 
 /* Section 2 Benefits stsrt */
 .section-benefits {
-    padding: 120px 156px 0 156px;
+    padding: 120px 0;
 }
-title-hidden {
-    visibility: hidden;
-    pointer-events: none;
+.visually-hidden {
     position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 .benefits-list { 
     gap: 24px;   
 }
 .benefits-list-item{
     display: block;
-    width: 264px;
+    width: calc((100% - 72px) / 4);
 }
 .list-title {
     font-weight: 500;
@@ -199,15 +212,13 @@ title-hidden {
 }    
 .team-list-bg {
     background-color: var(--white-color);
-    display: flex;
-    flex-direction: column;
+    display: block;
     align-items: center;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
-    margin-bottom: 120px;
 }
 .team-card-text {
-    margin: 32px 16px;
+    padding: 32px 16px;
     text-align: center;
 }
 /* Section 4 Our team end*/
@@ -216,10 +227,10 @@ title-hidden {
 /* Footer start*/
 .footer {
     background-color: var(--navy-blue-color);
+    padding: 100px 0;
 }
 .footer-container {
     width: 264px;
-    margin: 100px 0;
 }
 .color-footer-logo {
     color: var(--cloud-color);
