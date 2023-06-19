@@ -65,11 +65,11 @@ ul {
     border-bottom: 1px solid var(--cornflower-color);
 }
 .header-page-nav {
-    align-items: center;   
+    align-items: center; 
 }
-/* .nav-row {
-    align-items: center;
-} */
+.container-logo{
+    padding: 24px 0;
+}
 .logo {
     display: inline-block;
     font-family: 'Raleway', sans-serif;
@@ -81,7 +81,7 @@ ul {
     text-transform: uppercase;   
     margin-right: 76px; 
     margin-bottom: 16px;
-    padding: 24px 0;
+
 }
 .color-header-logo {
     color: var(--navy-blue-color);
