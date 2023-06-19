@@ -65,8 +65,7 @@ ul {
     border-bottom: 1px solid var(--cornflower-color);
 }
 .header-page-nav {
-    align-items: center;
-    padding: 24px 0;
+    align-items: center;   
 }
 /* .nav-row {
     align-items: center;
@@ -88,6 +87,7 @@ ul {
 }
 .page-nav-list {
     gap: 40px;
+    padding: 24px 0;
 }
 .page-nav-link {
     font-weight: 500; 
