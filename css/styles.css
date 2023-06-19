@@ -65,9 +65,12 @@ ul {
     align-items: center;
     border-bottom: 1px solid var(--cornflower-color);
 }
-.nav-row {
+.header-page-nav {
     align-items: center;
 }
+/* .nav-row {
+    align-items: center;
+} */
 .logo {
     display: inline-block;
     font-family: 'Raleway', sans-serif;
