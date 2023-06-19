@@ -229,13 +229,14 @@ ul {
     background-color: var(--navy-blue-color);
     padding: 100px 0;
 }
-.color-footer-logo {
-    color: var(--cloud-color);
+.footer-logo{
     margin-bottom: 16px;
 }
+.color-footer-logo {
+    color: var(--cloud-color);
+}    
 .footer-text {
     color: var(--cloud-color);
-    margin-top: 16px;
     max-width: 264px
 }
 /* Footer end*/
